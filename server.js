@@ -10,7 +10,7 @@ const app = express();
 
 
 app.use(createProxyMiddleware({
-    target: "http://s6773code.thddns.net:8999",
+    target: "https://c382-2405-9800-b520-b83f-e155-7c80-7d69-716c.ngrok-free.app",
     secure: false,
     changeOrigin: true,
     ws: true
